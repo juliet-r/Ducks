@@ -1,0 +1,48 @@
+body {
+    color: rgb(127, 19, 214);
+    margin: 100px;
+    background: rgb(213, 245, 193);
+    background-image: url(/static/greyduckfeet.png); 
+    line-height: 1.5;
+    vertical-align: middle;
+
+    
+}
+
+img {
+    height: 200px;
+
+}
+
+p, li,a{
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(24, 85, 12);
+}
+li{
+    color: rgb(17, 141, 17);
+}
+
+h1 {
+    color: rgb(68, 8, 128);
+}
+ 
+footer {
+    position: fixed;
+    width: 300px;
+    right: -90px;
+    bottom: -40px;
+    z-index: -1;
+    resize: both;
+    object-fit: fill;
+}
+
+#header {
+    text-align: center;
+}
+
+.navlinks {
+    color:rgb(24, 85, 12);   
+}
+
+
