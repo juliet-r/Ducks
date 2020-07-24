@@ -41,8 +41,24 @@ footer {
     text-align: center;
 }
 
-.navlinks {
-    color:rgb(24, 85, 12);   
+
+.nav {
+    color: rgb(94, 9, 105);
+    text-align: center;
+    margin: 15px;
 }
+ #navlinks {
+     color: rgb(94, 9, 105);
+     text-align: center;
+     margin: 15px;
+ }
 
 
+ .piclinks {
+     margin: 15px;
+     padding: 15px;
+     border-color: lawngreen;
+     width: 600px;
+     height: 450px;
+     text-align: center;
+ }
