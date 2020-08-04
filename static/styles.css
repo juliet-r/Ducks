@@ -21,6 +21,7 @@ p, li,a{
 }
 li{
     color: rgb(17, 141, 17);
+    border-right: honeydew;
 }
 
 h1 {
@@ -62,3 +63,75 @@ footer {
      height: 450px;
      text-align: center;
  }
+
+ #nav {
+    top: 0;
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+    text-align: right;
+ }
+ .nav-link {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    list-style-type: none;
+  }
+  
+  .nav-link li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    list-style-type: none;
+  }
+  
+  .nav-link li a i {
+    color: #000000;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 92, 19);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  .nav-link a {
+    display: block;
+    color: rgb(207, 219, 207);
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+    float: left;
+    background-color: rgb(8, 92, 19);
+    text-align: center;
+}
+  /* Change .nav-link color to #111 (black) on hover */
+  
+
+ .nav-link a:hover {
+     background-color: rgb(161, 202, 161);
+     color: black;
+ }
+
+
+   .active {
+       background-color: hotpink;
+   }
+
+    .home-button {
+        margin: 10;
+        padding: 10;
+        background-color: rgb(0, 130, 54);
+        color: white;
+    }
+
+     #main-duck {
+         height: 500px;
+     }
