@@ -20,46 +20,52 @@
 
     <body>
         <div id="welcome">
-            <p>Hello welcome to the website for fans of ducks in edinburgh, hop you enjoy the ducks !</p>
+            <h1><p>Hello welcome to the website for fans of ducks in edinburgh, hop you enjoy the ducks !</p> </h1>
         </div>
 
             <img id="main-duck" src="/static/duck.jpg">
 
-        <div id="nav">
-           <ul>
-
-            <li style="float: left;"> <div class="nav-link"> 
+      <div class="wrapper">  <div id="nav"> <div id="hamnav"><div class="nav-link"> <div id="hamitems">
+          <div id="hamnav label"> <label for="hamburger">&#9776;</label> </div><input type="checkbox" id="hamburger"/> <ul>
+            <li style="float: left;"> <div class="nav-link-home">
+                <a href="/">
+                Home </a> 
+                </div>
+                </li>   
+            <div id="dropbtn">
+            <div class="dropdown">
+            <li style="float: left;"> <div class="nav-link-one"> 
             <a class="active" href="/places"> 
             Where to see ducks</a>
             </div>
             </li>
+            </div>
+            </div>
             
-            <li style="float: left;"> <div class="nav-link">
+            <div class="dropdown-content">
+            <li style="float: left;"> <div class="nav-link-two">
             <a href="/recipes">
             Food for Ducks</a>
             </div>
             </li>
+            </div>
             
-            <li style="float: left;"> <div class="nav-link">
+            <li style="float: left;"> <div class="nav-link-three">
             <a href="kinds/"> 
             Kinds of Ducks</a>
             </div>
             </li>
 
-            <li style="float: left;"> <div class="nav-link">
+            <li style="float: left;"> <div class="nav-link-four">
             <a href="/swans/"> 
             Swans</a>
             </div>
             </li>
- 
-            <li style="float: left;"> <div class="nav-link">
-            <a href="/duckpics/">
-            Duck Pics </a> 
-            </div>
-            </li>
             
            </ul>
-        </div>   
+        </div>
+        </div> 
+        </div> </div> </div>
         <footer> <img src="/static/whiteduck.png" alt=""></footer> 
     </body>
 

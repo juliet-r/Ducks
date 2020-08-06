@@ -9,15 +9,53 @@
     </title>
     <link rel="stylesheet" type="text/css" href="/static/styles.css">
 </head>
+
 <body>
+    <div class="wrapper">  <div id="nav"> <div class="nav-link">
+        <ul>
+        <li style="float: left;"> <div class="nav-link-home"> 
+            <a class="active" href="/"> 
+            Home </a>
+            </div>
+        </li>   
+
+         <li style="float: left;"> <div class="nav-link-one"> 
+         <a class="active" href="/places"> 
+         Where to see ducks</a>
+         </div>
+         </li>
+         
+         <li style="float: left;"> <div class="nav-link-two">
+         <a href="/recipes">
+         Food for Ducks</a>
+         </div>
+         </li>
+         
+         <li style="float: left;"> <div class="nav-link-three">
+         <a href="kinds/"> 
+         Kinds of Ducks</a>
+         </div>
+         </li>
+
+         <li style="float: left;"> <div class="nav-link-four">
+         <a href="/swans/"> 
+         Swans</a>
+         </div>
+         </li>
+
+         
+        </ul>
+     </div>
+     </div> 
+     </div>  
     <p> This is the places page</p>
     <img src="/static/duck.jpg">
     <p>Here are some good places to spot ducks in Edinburgh</p>
     <ol>
-        <li>the canal</li>
-        <li>Blackford hill</li>
-        <li>Holyrood</li>
-        <li>Botanics</li>
+        <div class="column"><li>the canal</li> </div>
+        <div class="column"><li>Blackford hill</li> </div>
+        <div class="column"><li>Holyrood</li> </div>
+        <div class="column"><li>Botanics</li> </div>
     </ol>
     <p> <a href="/">Home </a></p>
 </body>
