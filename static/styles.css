@@ -45,91 +45,8 @@ footer {
     text-align: center;
 }
 
-
-.nav {
-    color: rgb(94, 9, 105);
-    text-align: center;
-    margin: 15px;
-}
- #navlinks {
-     color: rgb(94, 9, 105);
-     text-align: center;
-     margin: 15px;
- }
-
-
- .piclinks {
-     margin: 15px;
-     padding: 15px;
-     border-color: lawngreen;
-     width: 600px;
-     height: 450px;
-     text-align: center;
- }
-
- #nav {
-    top: 0;
-    position: relative;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 10px;
-    text-align: right;
- }
- .nav-link {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    list-style: none;
-    list-style-type: none;
-  }
-  
-  .nav-link li {
-    display: inline-block;
-    margin: 0 0 0 10px;
-    list-style-type: none;
-  }
-  
-  .nav-link li a i {
-    color: #fdfcfc;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(8, 92, 19);
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-  }
-  .nav-link a {
-    display: block;
-    color: rgb(207, 219, 207);
-    padding: 8px 16px;
-    text-decoration: none;
-    width: 200px;
-    float: left;
-    background-color: rgb(8, 92, 19);
-    text-align: center;
-}
-  /* Change .nav-link color to #111 (black) on hover */
-  
-
- .nav-link a:hover {
-     background-color: rgb(161, 202, 161);
-     color: black;
- }
-
-
-    .home-button {
-        margin: 10;
-        padding: 10;
-        background-color: rgb(0, 130, 54);
-        color: white;
-    }
+ 
+    
 
      #main-duck {
        height: auto;
@@ -143,4 +60,61 @@ footer {
         float: left;
         width: 50%;
     }
-        
+   /* [ON BIG SCREENS] */
+/* Wrapper */
+#hamnav {
+  width: 100%;
+    
+  /* Optional */
+  position: sticky;
+  top: 0;
+}
+
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+
+/* Horizontal Menu Items */
+#hamitems { display: flex; }
+#hamitems a {
+  width: 20%; /* 100% / 5 tabs = 20% */
+  padding: 10px;
+  color: white;
+  background-color: #29690c;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover {
+  background: #104602;
+}
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* Show Hamburger Icon */
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #29690c;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle Show/Hide Menu */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+/* [DOES NOT MATTER] */ 
+html, body { 
+  padding: 0; 
+  margin: 0; 
+  font-family: arial, sans-serif; 
+}

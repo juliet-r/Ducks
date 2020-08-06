@@ -10,32 +10,22 @@
     <link rel="stylesheet" type="text/css" href="/static/styles.css">
 </head>
 <body>
-    <nav class="navigation">
+  <nav id="hamnav">
+    <!-- [THE HAMBURGER] -->
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+
+    <!-- [MENU ITEMS] -->
+    <div id="hamitems">
+      <a href="/">Home</a>
+      <a href="/places/">Places</a>
+      <a href="/recipes/">Food</a>
+      <a href="/kinds/">Kinds</a>
+      <a href="/swans/">Swans</a>
+      <a href="/duckpics/">Pics</a>
+    </div>
   
-        <section class="container">
-          <a class="navigation-title" href="/">
-            Ducks
-          </a>
-          
-          <input type="checkbox" id="menu-toggle" />
-          <label class="menu-button float-right" for="menu-toggle"><i class="fa fa-bars"></i></label>
-          <ul class="navigation-list">
-            
-            
-            <li class="navigation-item">
-              <a class="cl-effect-3 navigation-link" href="/places/">Places</a>
-            </li>
-            
-            <li class="navigation-item">
-              <a class="cl-effect-3 navigation-link" href="/recipes/">Food</a>
-            </li>
-            
-            
-            
-          </ul>
-          
-        </section>
-      </nav>
+       
       
     <img src="/static/swan.jpg" alt="aggressive swam">
     <p>page in development</p>
